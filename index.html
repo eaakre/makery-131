@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
+
+    <title>Makery 131</title>
+</head>
+<body>
+    <nav>
+        <img src="images/logo-bw.png" alt="" id="logo">
+        <ul class="nav-list">
+            <li class="nav-link"><a href="#events">Events</a></li>
+            <li class="nav-link"><a href="#gallery">Gallery</a></li>
+            <li class="nav-link"><a href="#about">About</a></li>
+            <li class="nav-link"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="top-line"></div>
+
+    <div class="company-start">
+        <img src="images/logo-bw.png" alt="">
+        <h1 id="company">Makery 131</h1>
+    </div>
+    
+    <main>
+        <div id="big-pic-bg">
+            <div id="big-picture">
+                <div class="view">
+                    <img src="images/back-icon.png" alt="" id="back-icon">
+                    <img src="images/blessed.jpg" alt="" id="main-picture">
+                    <img src="images/next-icon.png" alt="" id="next-icon">
+                </div>
+            
+                <div class="close">
+                    <img src="images/close-icon.png" alt="" id="close-icon" onclick="closePic()">
+                </div>
+            </div>
+        </div>
+        
+
+        <!-- Events -->
+        <section id="events">
+            <h2>Upcoming Events</h2>
+            <div id="events-container">
+                <div class="event">
+                    <img src="images/circle.jpg" alt="">
+                    <h3 class="event-title">Personalized Welcome Circle Sign</h3>
+                </div>
+                <div class="event">
+                    <img src="images/vendor.jpg" alt="">
+                    <h3 class="event-title">Fall Vendor Show</h3>
+                </div>
+                <div class="event">
+                    <img src="images/circle.jpg" alt="">
+                    <h3 class="event-title">Personalized Welcome Circle Sign</h3>
+                </div>
+            </div>
+        </section>
+
+        <div class="line"></div>
+
+        <!-- Project Gallery -->
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="photo-container">
+                <div class="photos">
+                    <img src="images/blessed.jpg" alt="" class="sm-img" onclick="viewPic(this.src)">
+                    <img src="images/fall.jpg" alt="" class="sm-img" onclick="viewPic(this.src)">
+                    <img src="images/home.jpg" alt="" class="sm-img" onclick="viewPic(this.src)">
+                    <img src="images/peace.jpg" alt="" class="sm-img" onclick="viewPic(this.src)">
+                    <img src="images/sweet.jpg" alt="" class="sm-img" onclick="viewPic(this.src)">
+                    <img src="images/trees.jpg" alt="" class="sm-img" onclick="viewPic(this.src)">
+                    <img src="images/welcome.jpg" alt="" class="sm-img" onclick="viewPic(this.src)">
+                    <img src="images/family.jpg" alt="" class="sm-img" onclick="viewPic(this.src)">
+                    <img src="images/kind.jpg" alt="" class="sm-img" onclick="viewPic(this.src)">
+                </div>
+            </div>
+        </section>
+
+        <div class="line"></div>
+
+        <!-- About Me -->
+        <section id="about">
+            <div class="profile">
+                <img src="images/profile.jpg" alt="" onclick="viewPic(this.src)">
+            </div>
+            <div class="profile-info">
+                <h2>Meet the maker!</h2>
+                <div class="description">
+                    <div class="about-container">
+                        <h3>Hi! My name is Megan</h3>
+                        <p>I am the dreamer here at makery 131. 
+                            I’ve always loved crafting and making my own home decor so I wanted to turn my ideas 
+                            into a way of getting people together, thus makery 131 was born. 
+                        </p>
+                    </div>            
+                </div>
+            </div>
+        </section>
+
+        <div class="line"></div>
+
+        <!-- Contact info -->
+        <section id="contact">
+            <h3>e-Mail:</h3>
+            <a href="">makery131@gmail.com</a>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+</html>
